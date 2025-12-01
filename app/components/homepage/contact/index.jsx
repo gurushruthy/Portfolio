@@ -3,7 +3,7 @@ import { personalData } from '@/utils/data/personal-data';
 import Link from 'next/link';
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
@@ -55,12 +55,6 @@ function ContactSection() {
             <Link target="_blank" href={personalData.twitter}>
               <FaXTwitter
                  className="bg-[#1DA1F2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.stackOverflow}>
-              <FaStackOverflow
-                 className="bg-[#F48024] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
                 size={48}
               />
             </Link>

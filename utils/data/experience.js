@@ -1,50 +1,33 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer',
-    company: "Signarama",
-    duration: "(Aug 2024 - June 2025)",
-    tools: ['Python', 'Dialogflow', 'Trello', 'Automation', 'Task Management'],
-    image: '/png/signarama.png',
-    description: 'Developed a chatbot using Python and Dialogflow for internal use, improving onboarding and training efficiency by 20%. Designed and implemented automation solutions for Trello boards to streamline task management, resulting in a 35% increase in efficiency.'
+    title: 'Full Stack Software Engineer',
+    company: "Posterchild Inc.",
+    duration: "(Oct 2025 - Present)",
+    location: "Remote - Berkeley, California",
+    tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh'],
+    image: '/png/posterchild.jpeg',
+    description: 'Owned end-to-end development of core platform features, including backend microservices and frontend UIs using Python (FastAPI) and React/Next.js. Integrated multi-agent AI pipelines with event-driven orchestration, applying strong concurrency patterns and workload partitioning. Directed platform deployment on GCP, optimizing autoscaling, service mesh configuration, and CI/CD pipelines. Designed RESTful APIs with clear interface contracts and implemented comprehensive unit tests. Led architectural decisions, deployment strategies on Google Cloud Platform (GCP), and implementing best practices for security, scalability, and CI/CD workflows.'
   },
   {
     id: 2,
-    title: "Data Science Researcher and Teaching Assistant",
-    company: "University of Maryland",
-    duration: "(May 2023 - Nov 2024)",
-    tools: ['Excel', 'Python', 'Tableau', 'Power BI', 'ETL', 'Data Visualization', 'Natural Language Processing', 'Mentorship'],
-    image: '/png/UMBC.jpg',
-    description: 'Managed 30+ datasets for the Center for Women in Tech assessment, generating 10+ reports and 30+ visualizations using Tableau and Power BI. Mentored 50 students in Natural Language Processing, providing tutoring and feedback. Employed advanced Excel functions and Python for ETL processes and data visualization.'
+    title: 'Software Developer',
+    company: "Ottenweller Company Inc.",
+    duration: "(Feb 2024 - Sep 2025)",
+    location: "Remote - Indiana, United States",
+    tools: ['Python', 'FastAPI', 'LangChain', 'LangGraph', 'RAG', 'FAISS', 'C#', 'ASP.NET Core', 'Azure Functions', 'Azure AI Foundry', 'Azure App Service', 'Blob Storage', 'REST APIs', 'CI/CD'],
+    image: '/png/oci.png',
+    description: 'Built a Python-based backend system for an Agentic AI-powered Accounts Payable Automation Platform, orchestrating LLM agents using LangChain, LangGraph, and RAG with FAISS vector indexes. Delivered full-stack functionality including user-facing dashboards, and developed specialized agents for document parsing, compliance verification, payment scheduling, and ERP/vendor API integration—reducing invoice processing time by 60% and improving accuracy by 40%. Implemented backend services in Python (FastAPI) for AI orchestration and C# / ASP.NET Core for enterprise integration, enabling secure interoperability with ERP systems and EDA tools via REST APIs and file parsers and caching mechanisms to reduce API latency. Deployed and maintained the platform on Azure Functions, Azure AI Foundry, App Service, and Blob Storage, with Git-integrated CI/CD pipelines ensuring scalable and fault-tolerant operations.'
   },
   {
     id: 3,
     title: 'Software Engineer',
-    company: "Accenture",
-    duration: "(Sept 2021- Aug 2022)",
-    tools: ['ASP.NET','Core MVC', 'MySQL', 'Jenkins', 'CI/CD', 'Unit Testing', 'Performance Optimization', 'Troubleshooting'],
-    image: '/png/accenture.png',
-    description: 'Redesigned an internal time tracker application using ASP.NET Core MVC, improving user experience and increasing reporting efficiency by 25%. Optimized application performance with unit testing and CI/CD pipelines using Jenkins, resulting in a 15-18% increase in page load times. Utilized advanced debugging and automated testing to achieve a 20% faster page load time.'
-  },
-  {
-    id: 4,
-    title: 'Software Engineer',
-    company: "La Net Team Software Solutions",
-    duration: "(Jan 2021 - Sept 2021)",
-    tools: ['React Native', 'TypeScript', 'Redux', 'AWS Amplify', 'AWS CloudWatch', 'AWS Pinpoint', 'Real-time Tracking', 'Multilingual Support'],
-    image: '/png/lanet.jpeg',
-    description: 'Designed and built a ridesharing application using React Native and TypeScript, integrating AWS services like Amplify, CloudWatch, and Pinpoint for efficient data management. Developed a restaurant application with real-time order tracking, interactive menus, and multilingual support, reducing order processing time by 30%.'
-  },
-   {
-    id: 5,
-    title: "Software Intern",
-    company: "Mokshit Infotech",
-    duration: "(May 2020 - Dec 2020)",
-    tools: ["React Native", "Node.js", "TypeScript", "Azure Services"],
-    image: '/png/mokshit.jpeg',
-    description: [
-      "Developed and maintained a cross-platform mobile application using React Native, seamlessly integrating Azure services to support and manage over 10,000 daily active users. Optimized server-side APIs with Node.js and TypeScript, reducing response times by 30% and enabling efficient data handling."
-    ]
-  } 
+    company: "LTIMindtree",
+    duration: "(Oct 2020 - Aug 2022)",
+    location: "Chennai, India",
+    tools: ['Kafka', 'Python', 'Azure', 'Real-time Streaming', 'IoT', 'Pentaho ETL', 'Concurrent Processing', 'Dead-Letter Queues', 'High Availability', 'Disaster Recovery', 'Exactly-Once Processing'],
+    image: '/png/lti.png',
+    description: 'Contributed to the Connected Elevator project as a full-stack developer, building Kafka-based real-time data streaming pipelines to ingest and process high-frequency telemetry from global elevator IoT sensors. Developed backend services to manage ingestion workflows and integrated with Azure-based storage and analytics layers. Developed resilient Kafka consumer workflows with concurrent processing and integrated dead-letter queues (DLQs) to ensure fault-tolerant message handling and observability of failed events. Handled heavy data processing pipelines by tuning Kafka\'s replication factor, partitioning strategy, and broker configurations to meet high availability (HA) and disaster recovery (DR) objectives across production clusters. Ensured exactly-once processing semantics (EOS) using Kafka transactional APIs. Worked closely with the Pentaho ETL and Azure teams to streamline Kafka topic structures with downstream data transformation and storage layers, enabling consistent schema evolution and scalable data ingestion.'
+  }
 ]
 

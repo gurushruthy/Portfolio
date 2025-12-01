@@ -7,7 +7,6 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 function HeroSection() {
   return (
@@ -49,13 +48,6 @@ function HeroSection() {
               <BsGithub size={30} />
             </Link>
 
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-              className="transition-all text-[#FFA116] hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
             <Link target="_blank" href={personalData.twitter}>
               <FaXTwitter
                  className="transition-all text-[#060c10] rounded-full   hover:scale-125 duration-300"
@@ -104,7 +96,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Neha Nooka</span>
+                <span className="text-amber-300">Guru Shruthy</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -114,18 +106,23 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C#</span>
+                <span className="text-amber-300">FastAPI</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">Next.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Javascript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Node.js</span>
+                <span className="text-amber-300">GCP</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
-
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Microservices</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">LangChain</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Java</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">C#</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Google ADK</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

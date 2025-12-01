@@ -251,6 +251,18 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'rest apis':
+      return html;
+    case 'microservices':
+      return docker;
+    case 'event-driven architecture':
+      return docker;
+    case 'service mesh':
+      return kubernetes;
+    case 'google adk':
+      return gcp;
+    case 'langchain':
+      return python;
     default:
       break;
   }

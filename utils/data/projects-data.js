@@ -1,50 +1,30 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Cab Around',
-        tools: ['React Native', 'GraphQL', 'AWS', 'AWS Amplify', 'AWS S3', 'AWS CloudWatch'],
+        name: 'Donor-Finder',
+        tools: ['FastAPI', 'Next.js', 'PostgreSQL', 'pgvector', 'Docker', 'Fly.io', 'Vercel', 'CI/CD', 'Semantic Search', 'REST APIs'],
         role: "Software Engineer",
         code: '',
-        demo: 'https://youtube.com/playlist?list=PLQePrdBWxlsXQREK6iZuaEPGVOKFoVBWh&si=GTli4NfW1-7ZAo7y',
-        description: 'Engineered a dual ridesharing app using React Native, GraphQL, and AWS services, achieving 99.5% uptime. Key features include vehicle-type booking, real-time driver updates, seamless payments, a chatbot boosting engagement by 15%, trip histories, and saved locations for 25% quicker bookings.'
+        demo: '',
+        description: 'Built a full-stack donor search application using FastAPI (backend) and Next.js (frontend) to search and filter nonprofit donors. Integrated semantic search with PostgreSQL + pgvector and external APIs for donor enrichment. Deployed the backend on Fly.io with Docker and the frontend on Vercel. Delivered a production-ready blueprint with scalable microservice separation and CI/CD support with Git.'
     },
     {
         id: 2,
-        name: 'Digi Mart',
-        tools: ['Java', 'MVC Architecture', 'HTML5', 'CSS3', 'JavaScript', 'Docker', 'Kubernetes', 'AWS'],
+        name: 'BlueMQ',
+        tools: ['C++', 'Distributed Systems', 'Publish-Subscribe', 'Message Queues', 'Partition-Affinity Routing', 'Disk-Backed Persistence'],
         role: "Software Engineer",
         code: '',
         demo: '',
-        description: 'Designed, developed, and deployed an e-commerce website with secure payment gateway integration, utilizing Java, MVC architecture, HTML5, CSS3, JavaScript, and third-party APIs. Containerized the application using Docker and deployed on a Kubernetes cluster for improved scalability and reliability.'
-
+        description: 'Designed and developed a high-performance in-memory publish-subscribe messaging system crafted in C++ for distributed systems. Implemented partition-affinity routing, a lightweight topic registry, durable in-memory message queues with optional disk-backed persistence, and support for failed message handling. Achieved sub-millisecond latency and sustained throughput of 380MB/s for 100KB messages, enabling real-time event processing.'
     },
     {
         id: 3,
-        name: 'Smart Personal Finance Assistant',
-        tools: ['Python', 'React.js','AWS','JavaScript', 'Machine Learning', 'Predictive Analytics', 'Pandas'],
+        name: 'Emotion Recognition in Tweets using Multi-Modal Data',
+        tools: ['Python', 'NLP', 'CNNs', 'Fuzzy Logic', 'LLMs', 'Multi-Modal Learning', 'Late Fusion', 'Machine Learning'],
         role: "Software Engineer",
         code: '',
         demo: '',
-        description: 'Developed a personal finance assistant using Python and React.js that helps users manage their expenses and savings through predictive analytics and personalized insights, resulting in a 25% increase in savings over six months. Created a machine learning model leveraging historical spending data to categorize transactions and forecast monthly budgets with 90% accuracy.'
-
-    },
-    {
-        id: 4,
-        name: "Flow - Travel Assistant",
-        tools: ["React Native", "Axios", "OpenAI API", "JavaScript", "Node.js"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
-    },
-        {
-        id: 5,
-        name: "Weather Assistant",
-        tools: ["React Native", "TypeScript", "Open-Meteo API", "AWS", "iOS Notifications"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "A sleek mobile application that acts as a personal weather assistant, providing real-time weather updates and additional insights using the Open-Meteo API. The app includes a modern UI, backend integration, and iOS notifications for unique weather updates."
+        description: 'Developed a fuzzy-rule based unsupervised learning technique for Natural Language Processing (NLP) on textual data, combined with a late fusion model of Convolutional Neural Networks (CNNs) for image features. Explored integration with LLMs for enhanced semantic understanding of tweets. The system identified emotions and their intensities across multi-modal inputs. Published in the IEEE ICAAIC conference.'
     },
     
 ];

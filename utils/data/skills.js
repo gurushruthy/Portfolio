@@ -3,8 +3,6 @@ export const skillsData = [
   'Python',
   'Java',
   'C#',
-  'MySQL', 
-  'AWS',
   'GCP',
   'Azure',
   'Docker',
@@ -14,16 +12,19 @@ export const skillsData = [
   'Bootstrap',
   'C',
   'C++',
-  'Matlab',
   'PHP',
   'Flutter',
   'Typescript',
   'Git',
-  'Bootstrap',
-  'MongoDB',
   'PostgreSQL',
   'Firebase',
-  'Graphql'
+  'MySQL',
+  'REST APIs',
+  'Microservices',
+  'Event-Driven Architecture',
+  'Service Mesh',
+  'Google ADK',
+  'Langchain',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

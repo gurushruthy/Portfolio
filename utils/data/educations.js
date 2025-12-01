@@ -1,19 +1,18 @@
 export const educations = [
   {
     id: 1,
-    title: "Masters Degree",
+    title: "Master of Science in Computer Science",
     duration: "2022 - 2024",
-    institution: "University of Maryland, Baltimore County",
+    institution: "Purdue University, Indiana",
     gpa: "GPA: 4.0/4.0",
-    image: '/png/UMBC.jpg'
+    image: '/png/purdue.jpeg'
   },
   {
     id: 2,
-    title: "Bachelors Degree",
+    title: "Bachelor of Technology in Computer Science and Engineering",
     duration: "2017 - 2021",
-    institution: "Uka Tarsadia University",
-    gpa: "CGPA: 9.85/10",
-    image: '/png/utu.png'
+    institution: "CEG, Anna University",
+    gpa: "CGPA: 3.75/4.0",
+    image: '/png/ceg.jpeg'
   }
-
 ]
