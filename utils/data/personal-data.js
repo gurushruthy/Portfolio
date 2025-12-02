@@ -12,5 +12,5 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/guru-shruthy-guru-moorthy-22362b1b4/',
   twitter: 'https://x.com/gurushruthy',
   devUsername: "shruthy",
-  resume: "https://drive.google.com/file/d/1baPWUK4sQbP-NiWEjL_gHpA6nOTgGv83/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1hodoG4xFssRkBUXGpIq1J9rr6Ma7YHRl/view?usp=drive_link"
 }

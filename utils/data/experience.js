@@ -5,7 +5,7 @@ export const experiences = [
     company: "Posterchild Inc.",
     duration: "(Oct 2025 - Present)",
     location: "Remote - Berkeley, California",
-    tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh'],
+    tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript','Javascript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh'],
     image: '/png/posterchild.jpeg',
     description: 'Owned end-to-end development of core platform features, including backend microservices and frontend UIs using Python (FastAPI) and React/Next.js. Integrated multi-agent AI pipelines with event-driven orchestration, applying strong concurrency patterns and workload partitioning. Directed platform deployment on GCP, optimizing autoscaling, service mesh configuration, and CI/CD pipelines. Designed RESTful APIs with clear interface contracts and implemented comprehensive unit tests. Led architectural decisions, deployment strategies on Google Cloud Platform (GCP), and implementing best practices for security, scalability, and CI/CD workflows.'
   },
