@@ -59,3 +59,42 @@ button:hover {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+/* Horizontal scroll styles */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Smooth scroll behavior */
+.overflow-x-auto {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.overflow-x-auto > div > div {
+  scroll-snap-align: start;
+}
+
+/* Carousel styles */
+#experience .overflow-hidden,
+#projects .overflow-hidden {
+  position: relative;
+}
+
+/* Smooth carousel transitions */
+#experience .transition-transform,
+#projects .transition-transform {
+  will-change: transform;
+}
+
+/* Navigation button hover effects */
+#experience button:focus,
+#projects button:focus {
+  outline: 2px solid rgba(168, 85, 247, 0.5);
+  outline-offset: 2px;
+}

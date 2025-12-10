@@ -73,8 +73,18 @@ function ExpCard({ exp }) {
 
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
-            <span className="text-cyan-400">{' ' + exp.description}</span>
-            <span className="text-gray-400"></span>
+            <div className="ml-4 mt-2">
+              {Array.isArray(exp.description) ? (
+                exp.description.map((point, index) => (
+                  <div key={index} className="flex gap-2 mb-2">
+                    <span className="text-cyan-400 flex-shrink-0">•</span>
+                    <span className="text-cyan-400">{point}</span>
+                  </div>
+                ))
+              ) : (
+                <span className="text-cyan-400">{exp.description}</span>
+              )}
+            </div>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
