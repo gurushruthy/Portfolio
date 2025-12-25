@@ -5,12 +5,12 @@ export const experiences = [
     company: "Posterchild Inc.",
     duration: "(Oct 2025 - Present)",
     location: "Remote - Berkeley, California",
-    tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript','Javascript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh', 'Redis', 'Firestore', 'SQL'],
+    tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript', 'Javascript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh', 'Redis', 'Firestore', 'SQL', 'ORM', 'Google ADK'],
     image: '/png/posterchild.jpeg',
     description: [
-      'Architected and shipped an AI-driven Story Board system that transforms tagged customer reviews into multi-format narratives (articles, social captions, quote graphics), owning FastAPI orchestration, review-tag grouping, AI content synthesis, and React/Next.js dashboards and org-preview UIs.',
-      'Designed and operationalized automated PR and news content workflows by embedding a Gemini-powered PR Communication Analyst agent into scheduled pipelines, generating brand-voice–consistent content guidelines and social posts at scale and substantially reducing manual drafting effort.',
-      'Owned end-to-end development of core platform features, including backend microservices (FastAPI, Redis, Firestore/SQL) and frontend UIs (React/Next.js) with rich content editing, carousels, and asset management.',
+      'Architected and implemented a full-stack AI chatbot (FastAPI backend, Next.js frontend) with streaming responses, multi-agent routing, and external service integrations.',
+      'Built an agent framework using Google ADK with extensible base classes, enabling rapid addition of specialized agents with shared memory, sessions, and streaming capabilities.',
+      'Owned end-to-end development of core platform features, including backend microservices (FastAPI, Redis, Firestore/SQL, ORM-based data access) and frontend UIs (React/Next.js) with rich content editing, carousels, and asset management.',
       'Integrated multi-agent AI pipelines with event-driven orchestration, applying concurrency controls for DB/LLM workloads and workload partitioning to improve throughput and reliability of content generation flows.',
       'Designed RESTful APIs with clear contracts and comprehensive tests, and contributed to GCP deployment (autoscaling, service mesh configuration, CI/CD) and broader architectural decisions.'
     ]
