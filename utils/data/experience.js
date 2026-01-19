@@ -8,11 +8,11 @@ export const experiences = [
     tools: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript', 'Javascript', 'GCP', 'CI/CD', 'Microservices', 'Event-Driven Architecture', 'Service Mesh', 'Redis', 'Firestore', 'SQL', 'PostgreSQL', 'ORM', 'Google ADK'],
     image: '/png/posterchild.jpeg',
     description: [
-      'Architected a high-throughput Story Board system that transforms tagged customer reviews into multi-format narratives (articles, social captions, quote graphics), owning FastAPI orchestration, review-tag grouping, AI content synthesis, and React/Next.js dashboards and org-preview UIs.',
-      'Designed and operationalized automated PR and news content workflows by embedding a Gemini-powered PR Communication Analyst agent into scheduled pipelines, generating brand-voice–consistent content guidelines and social posts at scale and substantially reducing manual drafting effort.',
-      'Owned end-to-end development of core platform features, including backend microservices (FastAPI, Redis, SQLAlchemy, Firestore/SQL) and frontend UIs (React/Next.js) with rich content editing, carousels, and asset management.',
-      'Integrated multi-agent AI pipelines and reduced content generation latency with event-driven orchestration, applying concurrency controls for DB/LLM workloads and workload partitioning to improve throughput and reliability of content generation flows.',
-      'Designed RESTful APIs with clear contracts and comprehensive tests, and contributed to GCP deployment (autoscaling, service mesh configuration, CI/CD) and broader architectural decisions.'
+      'Architected a distributed content-generation engine capable of transforming high-volume unstructured metadata into multimodal social assets, utilizing FastAPI orchestration and event-driven workflows to handle high-throughput review processing and React/Next.js dashboards and org-preview UIs.',
+      'Operationalized agentic AI pipelines using Gemini to automate brand-voice synthesis and content guidelines; engineered automated feedback loops that reduced manual drafting latency and ensured content consistency across global social channels.',
+      'Optimized end-to-end latency for AI-driven content pipelines through workload partitioning and concurrency controls; implemented event-driven orchestration to manage complex DB/LLM interactions, significantly improving system reliability and throughput.',
+      'Architected a resilient data layer for high-concurrency content pipelines by leveraging PostgreSQL with pgvector for semantic similarity search and Redis for low-latency caching. Orchestrated GCP infrastructure including autoscaling and service mesh (Cloud Service Mesh) to ensure 99.9% availability and seamless service-to-service communication during traffic spikes.',
+      'Designed RESTful APIs with clear contracts and comprehensive tests, and contributed to broader architectural decisions.'
     ]
   },
   {
