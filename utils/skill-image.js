@@ -151,6 +151,8 @@ export const skillsImage = (skill) => {
       return dart;
     case 'go':
       return go;
+    case 'golang':
+      return go;
     case 'java':
       return java;
     case 'kotlin':

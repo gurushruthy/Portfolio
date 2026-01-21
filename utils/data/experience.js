@@ -35,10 +35,10 @@ export const experiences = [
     company: "LTIMindtree",
     duration: "(Oct 2020 - Aug 2022)",
     location: "Chennai, India",
-    tools: ['Kafka', 'Python', 'Azure', 'Real-time Streaming', 'IoT', 'Pentaho ETL', 'Concurrent Processing', 'Dead-Letter Queues', 'High Availability', 'Disaster Recovery', 'Exactly-Once Processing'],
+    tools: ['Go', 'Golang', 'Kafka', 'Python', 'Azure', 'Real-time Streaming', 'IoT', 'Pentaho ETL', 'Concurrent Processing', 'Dead-Letter Queues', 'High Availability', 'Disaster Recovery', 'Exactly-Once Processing'],
     image: '/png/lti.png',
     description: [
-      'Contributed to the Connected Elevator project as a full-stack developer, building Java/Spring Boot backend services and Kafka-based real-time streaming pipelines to ingest and process high-frequency telemetry from global elevator IoT sensors. Integrated ingestion workflows with Azure-based storage and analytics layers.',
+      'Contributed to the Connected Elevator project as a full-stack developer, building Go (Golang) microservices (REST APIs) and Kafka-based real-time streaming pipelines to ingest and process high-frequency telemetry from global elevator IoT sensors. Integrated ingestion workflows with Azure-based storage and analytics layers.',
       'Developed resilient Kafka consumer workflows with concurrent processing and integrated dead-letter queues (DLQs) to ensure fault-tolerant message handling and observability of failed events. Handled heavy data processing pipelines by tuning Kafka\'s replication factor, partitioning strategy, and broker configurations to meet high availability (HA) and disaster recovery (DR) objectives across production clusters. Ensured exactly-once processing semantics (EOS) using Kafka transactional APIs.',
       'Worked closely with the Pentaho ETL and Azure teams to streamline Kafka topic structures with downstream data transformation and storage layers, enabling consistent schema evolution and scalable data ingestion.'
     ]

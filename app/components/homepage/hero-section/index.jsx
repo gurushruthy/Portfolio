@@ -122,6 +122,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Golang</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">FastAPI</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Google ADK</span>

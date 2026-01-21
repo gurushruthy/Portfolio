@@ -3,6 +3,7 @@ export const skillsData = [
   'Python',
   'Java',
   'C#',
+  'Go',
   'GCP',
   'Azure',
   'Docker',
